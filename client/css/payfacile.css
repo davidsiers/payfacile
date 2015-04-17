@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    }
+nav .brand-logo {
+    margin-left: 0.5em;
+    padding-left: 110px !important;
+    background-image: url("/img/Logo/payfacile.logo.jpg");
+    background-size: 100px 35px;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+    min-width: 100px;
+}
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+/* CSS declarations go here */
+.sing.up {
+    width: 750px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-image: url("/img/material-design.jpg");
+    background-size: contain;
+    padding: 3%;
+}
+.row {
+    display: inline-block;
+    background-color: aliceblue;
+    /*border-color: #880e4f;
+       border-style: inset;*/
+}
+.btn {
+    float: right;
+    border: none;
+}
+input.validate {
+    height:46px;
+    width: 192px;
+}
+
+html {
+    font-family: "actolight", sans-serif;
+}
+.nav-wrapper {
+    background-image: url("/img/Headers/header.png");
+}
