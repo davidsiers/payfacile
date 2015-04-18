@@ -1,16 +1,18 @@
 <template name="signup">
-<div class="sing up">
+
     <center>
+
         <form class="col s12">
+            <h1>SIGN UP</h1>
             <div class="row">
                 <div class="input-field col s6">
-                    <input id="first_name" type="text" class="validate" pattern="[A-Za-z]">
+                    <input id="first_name" type="text" class="validate">
                     <label for="first_name">First Name</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate" pattern="[A-Za-z0-10]">
+                    <input id="last_name" type="text" class="validate">
                     <label for="last_name">Last Name</label>
                 </div>
             </div>
@@ -38,12 +40,21 @@
                     <input id="phone" type="text" class="validate">
                     <label for="phone">Phone</label>
                 </div>
-            </div>
+            </div> <br>
+
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="mdi-content-send right"></i>
+        </button>
         </form>
     </center>
-</div>
-<button class="btn waves-effect waves-light" type="submit" name="action">Submit
-    <i class="mdi-content-send right"></i>
-</button>
-
+    <div class="holder">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 </template>
