@@ -13,79 +13,61 @@ body {
      margin-right: auto;
      margin-left: auto;
 }
-    /*.col.s12 {
-        transform: scale(1);
-        animation-iteration-count: 1
-    }
-    .col.s12>*:nth-child(2) {transition-delay: .1s}
-    .col.s12>*:nth-child(3) {transition-delay: .2s}
-    .col.s12>*:nth-child(4) {transition-delay: .3s}
-    .col.s12>*:nth-child(5) {transition-delay: .15s}
-    .col.s12>*:nth-child(6) {transition-delay: .25s}
-    .col.s12>*:nth-child(7) {transition-delay: .35s}
-    .col.s12>*:nth-child(8) {transition-delay: .4s}*/
 
-
-#main {
-    height: 80%;
-}
-
-@font-face {
-    font-family: "Acto-UltraLight";
-    src: url("/Fonts/Acto/Acto-UltraLight.otf");
-}
-.brand-logo {
-    margin-left: 0.5em;
-    padding-left: 110px !important;
-    background-image: url("/img/Logo/payfacile.logo.jpg");
-    background-size: 100px 35px;
-    background-repeat: no-repeat;
-    background-position: 0 90%;
-}
-/*.logo {
-    margin-left: 0.5em;
-    padding-left: 110px !important;
-    width: 100px;
-    position: absolute;
-    top: 1px;
-}*/
-
-.brand-logo {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
+.container {
+    width: 100%;
+    height: 100%;
     padding: 0;
-}
-
-/* CSS declarations go here *
-.sing.up {
-    width: 750px;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    background-image: url("/img/material-design.jpg");
-    opacity: 0.7;
+    margin: 0;
+    background: url("/img/photo-1422513391413-ddd4f2ce3340.jpg");
     background-size: contain;
-    padding: 3%;
-}*/
+    position: absolute;
+     }
+h1 {
+    text-align: left;
+    margin-left: 75px;
+    padding-top: 10px;
+    }
+.logo {
+    height: 110px;
+    margin-top: -50px;
+    z-index: 1000;
+    position: absolute;
+    align-items: center;
 
+}
 .col.s12 {
     width: 60%;
-    height: 450px;
+    height: 475px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     background-image: url("/img/material-design.jpg");
-    opacity: 0.8;
+    opacity: 1.0;
     background-size: cover;
-    padding: 3%;
-    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 3s; /* Firefox < 16 */
-    -ms-animation: fadein 3s; /* Internet Explorer */
-    -o-animation: fadein 3s; /* Opera < 12.1 */
-    animation: fadein 3s;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+
+.row {
+    display: inline-block;
+    background-color: aliceblue;
+    /* transition: .35s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+     transform: scale(0);*/
+    z-index: 1000;
+    color: black;
+    width: 300px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+.container .row {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -115,19 +97,12 @@ body {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+.footer {
 
-.row {
-    display: inline-block;
-    background-color: aliceblue;
-   /* transition: .35s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-    transform: scale(0);*/
-    z-index: 3;
-    color: black;
+    margin-right: auto;
+    margin-left: auto;
 }
-.container .row {
-    margin-left: 5px;
-    margin-right: 5px;
-}
+
 .navbar-brand:hover {
     color: aliceblue;
     background-color: #26a69a;
@@ -151,16 +126,22 @@ nav .brand-logo:visited{
     display: inline-block;
     float: right;
     border: none;
-    margin-right: 15px;
+    margin-right: 75px;
     margin-bottom: 15px;
     height: 50px;
 }
 .btn:active {
     border: none;
 }
+.btn:hover {
+    border: none;
+}
+.btn:visited {
+    border: none;
+}
 input.validate {
     height:46px;
-    width: 192px;
+    width: 250px;
 }
 input.validate:checked {
     background-color: aqua;
@@ -170,12 +151,63 @@ input.validate:checked {
     background-image: url("/img/Headers/header.png");
 
     }
-.container {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background: url("/img/photo-1422513391413-ddd4f2ce3340.jpg");
-    background-size: contain;
-    position: absolute;
+/*.col.s12 {
+    transform: scale(1);
+    animation-iteration-count: 1
 }
+.col.s12>*:nth-child(2) {transition-delay: .1s}
+.col.s12>*:nth-child(3) {transition-delay: .2s}
+.col.s12>*:nth-child(4) {transition-delay: .3s}
+.col.s12>*:nth-child(5) {transition-delay: .15s}
+.col.s12>*:nth-child(6) {transition-delay: .25s}
+.col.s12>*:nth-child(7) {transition-delay: .35s}
+.col.s12>*:nth-child(8) {transition-delay: .4s}*/
+
+
+#main {
+    height: 80%;
+}
+
+@font-face {
+    font-family: "Acto-UltraLight";
+    src: url("/Fonts/Acto/Acto-UltraLight.otf");
+}
+.brand-logo {
+    margin-left: 1.5em;
+    margin-top: 0.3em;
+    padding-left: 110px !important;
+    background-size: 100px 35px;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+    background-image: url("/img/Logo/Logo.png");
+}
+/*background-image: url("/img/Logo/Logo.png");*/
+#logo2 {
+    margin-left: 0.5em;
+    padding-left: 110px !important;
+    width: 100px;
+    position: absolute;
+    top: 1px;
+}
+
+.brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+/* CSS declarations go here *
+.sing.up {
+    width: 750px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-image: url("/img/material-design.jpg");
+    opacity: 0.7;
+    background-size: contain;
+    padding: 3%;
+    background: url("/img/photo-1422513391413-ddd4f2ce3340.jpg");
+}*/
