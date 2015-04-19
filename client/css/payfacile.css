@@ -5,18 +5,25 @@ body {
     font-family: 'Acto-UltraLight',sans-serif;
     color: aliceblue;
 }
-
-/*.col.s12 {
-    transform: scale(1);
-    animation-iteration-count: 1
+ .welcome {
+     height: 100%;
+     width: 100%;
+     background-image: url("/img/Headers/twitter.payfacile-by-night.png");
+     background-size: contain;
+     margin-right: auto;
+     margin-left: auto;
 }
-.col.s12>*:nth-child(2) {transition-delay: .1s}
-.col.s12>*:nth-child(3) {transition-delay: .2s}
-.col.s12>*:nth-child(4) {transition-delay: .3s}
-.col.s12>*:nth-child(5) {transition-delay: .15s}
-.col.s12>*:nth-child(6) {transition-delay: .25s}
-.col.s12>*:nth-child(7) {transition-delay: .35s}
-.col.s12>*:nth-child(8) {transition-delay: .4s}*/
+    /*.col.s12 {
+        transform: scale(1);
+        animation-iteration-count: 1
+    }
+    .col.s12>*:nth-child(2) {transition-delay: .1s}
+    .col.s12>*:nth-child(3) {transition-delay: .2s}
+    .col.s12>*:nth-child(4) {transition-delay: .3s}
+    .col.s12>*:nth-child(5) {transition-delay: .15s}
+    .col.s12>*:nth-child(6) {transition-delay: .25s}
+    .col.s12>*:nth-child(7) {transition-delay: .35s}
+    .col.s12>*:nth-child(8) {transition-delay: .4s}*/
 
 
 #main {
@@ -114,6 +121,8 @@ body {
     background-color: aliceblue;
    /* transition: .35s cubic-bezier(0.190, 1.000, 0.220, 1.000);
     transform: scale(0);*/
+    z-index: 3;
+    color: black;
 }
 .container .row {
     margin-left: 5px;
@@ -121,7 +130,7 @@ body {
 }
 .navbar-brand:hover {
     color: aliceblue;
-    background-color: darkturquoise;
+    background-color: #26a69a;
 }
 .navbar-brand {
     height: 64px;
@@ -144,6 +153,10 @@ nav .brand-logo:visited{
     border: none;
     margin-right: 15px;
     margin-bottom: 15px;
+    height: 50px;
+}
+.btn:active {
+    border: none;
 }
 input.validate {
     height:46px;

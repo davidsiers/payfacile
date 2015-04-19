@@ -2,31 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8be75dc2-7b10-482b-8fce-c14bf5c18a6a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\client\templates\payfacile.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Black.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto BlackItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto BoldItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Book.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto BookItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto ExtraBold.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto ExtraBoldItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Hairline.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto HairlineItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto LightItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto MediumItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto SemiBold.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto SemiBoldItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto Thin.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto ThinItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto UltraBlack.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto UltraBlackItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto UltraLight.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\Fonts\Acto\Acto UltraLightItalic.otf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/footer.html" afterPath="$PROJECT_DIR$/client/templates/footer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/css/payfacile.css" afterPath="$PROJECT_DIR$/client/css/payfacile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/payfacile.js" afterPath="$PROJECT_DIR$/client/templates/payfacile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/signup.html" afterPath="$PROJECT_DIR$/client/templates/signup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/welcome.html" afterPath="$PROJECT_DIR$/client/templates/welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="payfacile.iws" />
@@ -52,20 +32,18 @@
         <entry file="file://$PROJECT_DIR$/client/css/payfacile.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
+              <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="payfacile.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="payfacile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/payfacile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,18 +81,20 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-              <folding />
+            <state vertical-scroll-proportion="-1.4705882">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3916449">
-              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+            <state vertical-scroll-proportion="-8.823529">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -123,8 +103,8 @@
       <file leaf-file-name="welcome.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.7352941">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -153,12 +133,13 @@
         <option value="$PROJECT_DIR$/layout.html" />
         <option value="$PROJECT_DIR$/client/templates/payfacile.html" />
         <option value="$PROJECT_DIR$/client/templates/layout.html" />
-        <option value="$PROJECT_DIR$/client/templates/footer.html" />
         <option value="$PROJECT_DIR$/lib/router.js" />
-        <option value="$PROJECT_DIR$/client/templates/welcome.html" />
         <option value="$PROJECT_DIR$/client/templates/header.html" />
-        <option value="$PROJECT_DIR$/client/css/payfacile.css" />
+        <option value="$PROJECT_DIR$/client/templates/footer.html" />
+        <option value="$PROJECT_DIR$/client/templates/welcome.html" />
         <option value="$PROJECT_DIR$/client/templates/signup.html" />
+        <option value="$PROJECT_DIR$/client/css/payfacile.css" />
+        <option value="$PROJECT_DIR$/client/templates/payfacile.js" />
       </list>
     </option>
   </component>
@@ -374,6 +355,13 @@
       <option name="number" value="Default" />
       <updated>1429096266085</updated>
     </task>
+    <task id="LOCAL-00001" summary="fff">
+      <created>1429428034699</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1429428034699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -382,6 +370,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24666311" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4634434" sideWeight="0.5040043" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -410,6 +399,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fff" />
+    <option name="LAST_COMMIT_MESSAGE" value="fff" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -427,9 +420,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -461,7 +452,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -493,9 +486,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -527,7 +518,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,9 +552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +584,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -613,10 +606,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/footer.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7352941">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/css/payfacile.css">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -633,40 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/css/payfacile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="1" selection-start-line="133" selection-start-column="1" selection-end-line="133" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3916449">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding />
         </state>
       </provider>
