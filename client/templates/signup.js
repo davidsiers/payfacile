@@ -34,3 +34,9 @@ Template.signup.events({
    }
 
 });
+
+/*$(document).ready(function(){
+    $(".navbar-brand").click(function(){
+        $("#myForm").toggle();
+    });
+});*/
