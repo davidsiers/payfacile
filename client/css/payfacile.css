@@ -1,4 +1,30 @@
+.vertical-line{
+    height: 350px;
+    width: 3px;
+    display: inline-block;
+    float: left;
+    background-color: aliceblue;
+}
+.one {
+    width: 49%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    padding-top: 3%;
+}
+#toto {
+    width: 60%;
+    margin-right: 15%;
+    margin-left: auto;
+}
 
+.two {
+    width: 49%;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    padding-top: 12%;
+}
 body {
     margin: 0;
     padding: 0;
@@ -114,7 +140,6 @@ h1 {
     margin-right: auto;
     margin-left: auto;
 }
-
 .navbar-brand:hover {
     color: aliceblue;
     background-color: #26a69a;

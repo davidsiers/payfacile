@@ -1,0 +1,32 @@
+<template name="loginemail">
+    <center>
+        <form class="col s12" id="myForm" role="form" data-toggle="validator" action="demo_form.asp" method="post">
+            <!--<svg height="150" width="150">
+                <circle cx="80" cy="80" r="60" stroke="cyan" stroke-width="3" fill="white" opacity="1.0"/>
+                <img x="40" y="30" class="logo" src="/img/Logo/ICONE_large.png">
+            </svg>-->
+            <div class="la">
+                <img class="logo" src="/img/Logo/pay3.png">
+              <br>
+                <h2>Log in with e-mail</h2>
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="email" type="email" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s6"> <!--<div class="input-field col s12">-->
+                    <input id="password" type="password" class="validate" pattern=".{6,}" title="Six or more characters" autocomplete="off">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+          <br>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Log in
+                <i class="mdi-content-send right"></i>
+            </button>
+        </form>
+    </center>
+</template>

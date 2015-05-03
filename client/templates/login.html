@@ -1,26 +1,33 @@
 <template name="login">
-
     <center>
-
-
-        <form class="col s12" id="myForm" role="form" data-toggle="validator" action="demo_form.asp" method="post">
+        <div class="col s12" id="myForm">
             <div class="la">
                 <img class="logo" src="/img/Logo/pay3.png">
-                <h1>Sign in</h1>
+                <h1>Log in</h1>
             </div>
-            <div>
-                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>SIGN IN WITH GOOGLE</a>
-                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>SIGN IN WITH FACEBOOK</a>
-                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>SIGN IN WITH STRIPE</a>
-                <button type="button" class="btn btn-social-login btn-google"><i class="fa fa-google"></i> Sign in with Google</button>
-            </div>
-            <hr>
-            <div>
-                <a class="navbar-brand" href="{{pathFor 'signup'}}">Sign up</a>
+            <div class="one">
+
+                <button class="waves-effect waves-light btn" id="toto"><i class="mdi-file-cloud left"></i>LOG IN WITH STRIPE</button>
+
+                <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i> Log in with Google</button>
+                <!--<button id="facebook-login" class="btn btn-default"> Log in with Facebook</button>-->
+
+                {{#if currentUser}}
+                    {{currentUser.services.facebook.name}}
+                    {{currentUser.services.facebook.gender}}
+                    <button id="logout">Logout</button>
+                {{else}}
+                    <button id="toto" class="btn btn-default" > Log in with Facebook</button>
+                {{/if}}
+
             </div>
 
+            <div class="vertical-line"></div>
 
+            <div class="two">
+                <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'loginemail'}}">Log in with  E-MAIL</a>
+            </div>
 
-        </form>
+        </div>
     </center>
 </template>
