@@ -1,0 +1,26 @@
+<template name="login">
+
+    <center>
+
+
+        <form class="col s12" id="myForm" role="form" data-toggle="validator" action="demo_form.asp" method="post">
+            <div class="la">
+                <img class="logo" src="/img/Logo/pay3.png">
+                <h1>Sign in</h1>
+            </div>
+            <div>
+                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud left"></i>SIGN IN WITH GOOGLE</a>
+                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>SIGN IN WITH FACEBOOK</a>
+                <a class="waves-effect waves-light btn"><i class="mdi-file-cloud right"></i>SIGN IN WITH STRIPE</a>
+                <button type="button" class="btn btn-social-login btn-google"><i class="fa fa-google"></i> Sign in with Google</button>
+            </div>
+            <hr>
+            <div>
+                <a class="navbar-brand" href="{{pathFor 'signup'}}">Sign up</a>
+            </div>
+
+
+
+        </form>
+    </center>
+</template>
