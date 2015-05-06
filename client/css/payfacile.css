@@ -12,8 +12,13 @@
     display: inline-block;
     padding-top: 3%;
 }
+.three {
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+}
 #toto {
-    width: 60%;
+    width: 70%;
     margin-right: 15%;
     margin-left: auto;
 }
@@ -59,6 +64,7 @@ h1 {
     /*color: rgba(0, 0, 0, 0.87);
     text-shadow: 2px 2px grey;*/
     position: static;
+   display: block;
     }
 
 .logo {
@@ -70,6 +76,9 @@ h1 {
     margin-right: auto;
 
 }
+.text {
+    padding: 20px;
+}
 .col.s12 {
     width: 60%;
     height: 475px;
@@ -77,8 +86,7 @@ h1 {
     margin-right: auto;
     margin-top: 2%;
     background-image: url("/img/papers.co-ag01-toronto-material-design-illust-art-25-wallpaper.jpg");
-
-    /*1, 8; 24, 30, 33, 55, 67 ;
+     /*1, 8; 24, 30, 33, 55, 67 ;
     background-image: url("/img/material-design.jpg");*/
     opacity: 1.0;
     background-size: cover;
@@ -146,6 +154,9 @@ h1 {
 }
 .navbar-brand {
     height: 64px;
+}
+nav .brand-logo {
+    position: static;
 }
 .navbar-brand:visited {
      color: aliceblue;

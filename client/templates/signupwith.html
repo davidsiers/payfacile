@@ -1,0 +1,29 @@
+<template name="signupwith">
+    <center>
+        <div class="col s12" id="myForm">
+            <div class="la">
+                <img class="logo" src="/img/Logo/pay3.png">
+                <h1>Sign up</h1>
+            </div>
+            <div class="one">
+                <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i> &nbsp; SIGN UP with Google</button>
+
+                {{#if currentUser}}
+                    {{currentUser.services.facebook.name}}
+                    {{currentUser.services.facebook.gender}}
+                    <button id="logout">Logout</button>
+                {{else}}
+                    <button id="toto" class="btn btn-default" ><i class="fa fa-facebook"></i> &nbsp; SIGN UP with Facebook</button>
+                {{/if}}
+                <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i>&nbsp; SIGN UP WITH STRIPE</button>
+            </div>
+
+            <div class="vertical-line"></div>
+
+            <div class="two">
+                <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'signup'}}"><i class="fa fa-envelope-o"></i>&nbsp; SIGN UP with  E-MAIL</a>
+            </div>
+
+        </div>
+    </center>
+</template>

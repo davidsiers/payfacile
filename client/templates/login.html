@@ -7,9 +7,7 @@
             </div>
             <div class="one">
 
-                <button class="waves-effect waves-light btn" id="toto"><i class="mdi-file-cloud left"></i>LOG IN WITH STRIPE</button>
-
-                <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i> Log in with Google</button>
+                <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i>&nbsp; Log in with Google</button>
                 <!--<button id="facebook-login" class="btn btn-default"> Log in with Facebook</button>-->
 
                 {{#if currentUser}}
@@ -17,15 +15,16 @@
                     {{currentUser.services.facebook.gender}}
                     <button id="logout">Logout</button>
                 {{else}}
-                    <button id="toto" class="btn btn-default" > Log in with Facebook</button>
+                    <button id="toto" class="btn btn-default" > <i class="fa fa-facebook"></i>&nbsp; Log in with Facebook</button>
                 {{/if}}
 
+                <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i> &nbsp; LOG IN WITH STRIPE</button>
             </div>
 
             <div class="vertical-line"></div>
 
             <div class="two">
-                <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'loginemail'}}">Log in with  E-MAIL</a>
+                <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'loginemail'}}"><i class="fa fa-envelope-o"></i>&nbsp;Log in with  E-MAIL</a>
             </div>
 
         </div>
