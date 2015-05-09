@@ -1,3 +1,25 @@
+/*@media screen and (max-width: 1024px) {
+    h1 {font-size: 20px}
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 50%;
+    }
+}
+*/
 .vertical-line{
     height: 350px;
     width: 3px;
@@ -5,6 +27,11 @@
     float: left;
     background-color: aliceblue;
 }
+#one {
+    border-color: aliceblue;
+    border-right-style: solid;
+}
+
 .one {
     width: 49%;
     height: 100%;
@@ -17,10 +44,14 @@
     height: 100%;
     display: inline-block;
 }
+.row {
+    min-width: 200px;
+}
 #toto {
-    width: 70%;
+    width: 60%;
     margin-right: 15%;
     margin-left: auto;
+    min-width: 200px;
 }
 
 .two {
@@ -56,37 +87,39 @@ body {
     background-size: contain;
     position: absolute;
      }
-h1 {
+/*h1 {
     text-align: left;
-    margin-left: 75px;
-    margin-top: -40px;
+    margin-left: 2%;
+    margin-top: -20px;
     font-weight: 100;
     /*color: rgba(0, 0, 0, 0.87);
-    text-shadow: 2px 2px grey;*/
+    text-shadow: 2px 2px grey;
     position: static;
    display: block;
-    }
+    }*/
 
 .logo {
     height: 110px;
     margin-top: -60px;
-    z-index: 1000;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
 
 }
-.text {
-    padding: 20px;
+#text {
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
 }
-.col.s12 {
-    width: 60%;
+.main {
+    border-radius: 15px;
+    /*width: 60%;
     height: 475px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
+    margin-top: 2%;*/
     background-image: url("/img/papers.co-ag01-toronto-material-design-illust-art-25-wallpaper.jpg");
-     /*1, 8; 24, 30, 33, 55, 67 ;
+     /*col.s12 1, 8; 24, 30, 33, 55, 67 ;
     background-image: url("/img/material-design.jpg");*/
     opacity: 1.0;
     background-size: cover;
@@ -98,12 +131,15 @@ h1 {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
+.container {
+    background-color: #eceff1;
+}
 
-.row {
+/*.row {
     display: inline-block;
     background-color: aliceblue;
     /* transition: .35s cubic-bezier(0.190, 1.000, 0.220, 1.000);
-     transform: scale(0);*/
+     transform: scale(0);
     z-index: 1000;
     color: black;
     width: 300px;
@@ -118,36 +154,31 @@ h1 {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
+}*/
 
-/* Firefox < 16 */
+/* Firefox < 16
 @-moz-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Safari, Chrome and Opera > 12.1 */
+/* Safari, Chrome and Opera > 12.1
 @-webkit-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Internet Explorer */
+/* Internet Explorer
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Opera < 12.1 */
+/* Opera < 12.1
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-.footer {
-
-    margin-right: auto;
-    margin-left: auto;
-}
+}*/
 .navbar-brand:hover {
     color: aliceblue;
     background-color: #26a69a;
@@ -194,6 +225,7 @@ input.validate {
 input.validate:checked {
     background-color: aqua;
 }
+
 /*header*/
 .nav-wrapper {
     background-image: url("/img/Headers/header.png");
