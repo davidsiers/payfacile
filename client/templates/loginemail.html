@@ -1,23 +1,25 @@
 <template name="loginemail">
-    <center>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l6 main" style="width: 25%; margin-left: 37%">
+
+                <div class="col s12 m12 l12 lo">
+                    <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
+                </div>
+
+                <div class="col s12 m12 l12 lo">
+                    <h1 style="float: left">Log in</h1>
+                </div>
+
         <form class="col s12" id="myForm" role="form" data-toggle="validator" action="demo_form.asp" method="post">
-            <!--<svg height="150" width="150">
-                <circle cx="80" cy="80" r="60" stroke="cyan" stroke-width="3" fill="white" opacity="1.0"/>
-                <img x="40" y="30" class="logo" src="/img/Logo/ICONE_large.png">
-            </svg>-->
-            <div class="la">
-                <img class="logo" src="/img/Logo/pay3.png">
-              <br>
-                <h2>Log in with e-mail</h2>
-            </div>
             <div class="row">
-                <div class="input-field col s6">
+                <div class="input-field col s12 m6 l12 ">
                     <input id="email" type="email" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off">
                     <label for="email">Email</label>
                 </div>
             </div>
             <div class="row">
-                <div class="input-field col s6"> <!--<div class="input-field col s12">-->
+                <div class="input-field col s12 m6 l12 ">
                     <input id="password" type="password" class="validate" pattern=".{6,}" title="Six or more characters" autocomplete="off">
                     <label for="password">Password</label>
                 </div>
@@ -27,5 +29,7 @@
                 <i class="mdi-content-send right"></i>
             </button>
         </form>
-    </center>
+                </div>
+            </div>
+        </div>
 </template>

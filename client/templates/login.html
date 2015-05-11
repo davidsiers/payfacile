@@ -1,11 +1,16 @@
 <template name="login">
-    <center>
-        <div class="col s12" id="myForm">
-            <div class="la">
-                <img class="logo" src="/img/Logo/pay3.png">
-                <h1>Log in</h1>
-            </div>
-            <div class="one">
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l6 main">
+                <div class="col s12 m12 l12 lo">
+                    <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
+                </div>
+                <div class="col s12 m12 l12 lo">
+                    <h1 style="float: left">Log in</h1>
+                </div>
+
+                <div class="col s12 m6 l6 one" id="one">
 
                 <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i>&nbsp; Log in with Google</button>
                 <!--<button id="facebook-login" class="btn btn-default"> Log in with Facebook</button>-->
@@ -23,10 +28,11 @@
 
             <div class="vertical-line"></div>
 
-            <div class="two">
+                <div class="col s12 m6 l5 two">
                 <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'loginemail'}}"><i class="fa fa-envelope-o"></i>&nbsp;Log in with  E-MAIL</a>
             </div>
 
         </div>
-    </center>
+</div>
+        </div>
 </template>
