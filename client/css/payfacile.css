@@ -1,14 +1,10 @@
 
-/*full screen*/
+/*full screen
 @media only screen and (min-width: 1200px) {
     .row .col.main {
         width: 45%;
         margin-left: 27%;
         margin-right: 27%;
-    }
-    #one {
-        border-color: aliceblue;
-        border-right-style: solid;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -18,12 +14,8 @@
         margin-right: 17%;
         margin-top: 50px;
     }
-    #one {
-        border-color: aliceblue;
-        border-right-style: solid;
-    }
 }
-/*i pad*/
+/*i pad
 @media only screen and (min-width: 701px) and (max-width: 992px) {
     .row .col.main {
         width: 75%;
@@ -31,15 +23,15 @@
         margin-right: 12%;
         margin-top: 50px;
     }
-    #one {
-        border-color: aliceblue;
-        border-right-style: solid;
-    }
+
+
     .btn {
-        float: none;
+
+
+              float: none;
     }
 }
-/*mobile*/
+/*mobile
 @media only screen and (max-width:701px) {
     .row .col.main {
         width: 90%;
@@ -49,7 +41,7 @@
         margin-right: 5%;
         margin-top: 50px;
             }
-}
+}*/
 
 .input-field.col {
     background-color: aliceblue;
@@ -67,15 +59,13 @@ input.validate {
     min-width: 240px;
     color: dimgray;
 }
-/*#one {
-    border-color: aliceblue;
-    border-right-style: solid;
-}*/
 
 .one {
     height: 100%;
     float: left;
     display: inline-block;
+    margin: auto;
+    min-width: 36px;
 }
 .two {
     min-height: 100%;
@@ -91,12 +81,12 @@ input.validate {
     min-width: 200px;
 }
 
-#toto {
+/*#toto {
     min-width: 235px;
     max-width: 245px;
     margin-right: auto;
     margin-left: auto;
-}
+}*/
 
 
 .back {
@@ -108,15 +98,10 @@ input.validate {
     }
 
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
     font-family: 'Acto-UltraLight',sans-serif;
     color: aliceblue;
 }
  .welcome {
-     width: 100%;
-     height: 100%;
      background-image: url("/img/Headers/twitter.payfacile-by-night.png");
      background-size: contain;
      margin-right: auto;
@@ -124,7 +109,7 @@ body {
      position: absolute;
 }
 
-.container {
+/*.container {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -132,7 +117,7 @@ body {
 
     background-size: contain;
     position: absolute;
-     }
+     }*/
 h1
 {
     margin-top: 0;
@@ -160,6 +145,14 @@ h1
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
+}
+
+.container {
+    background-color: aqua;
+    min-height: 300px;
+    max-height: 500px;
+    z-index: 9999;
+    position: relative;
 }
 .main {
 
@@ -203,6 +196,19 @@ h1
     -ms-filter: blur(5px);
     filter: blur(5px);
 }
+
+fieldset.title {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: block;
+    text-align: center;
+}
+
+fieldset.title legend {
+    padding: 5px 10px;
+}
 .link
 {
     height: 30px;
@@ -216,10 +222,7 @@ h1
 .link:hover, link:active {
     text-decoration: none;
 }
-.container.row {
-    margin-left: inherit;
-    margin-right: inherit;
-}
+
 /*.row {
     display: inline-block;
     background-color: aliceblue;
@@ -311,7 +314,7 @@ input.validate:checked {
 
 /*header*/
 .nav-wrapper {
-    background-image: url("/img/Headers/header.png");
+    background-color:#483658;
 
     }
 /*
@@ -332,10 +335,6 @@ input.validate {
 .col.s12>*:nth-child(7) {transition-delay: .35s}
 .col.s12>*:nth-child(8) {transition-delay: .4s}*/
 
-
-#main {
-    height: 80%;
-}
 
 @font-face {
     font-family: "Acto-UltraLight";

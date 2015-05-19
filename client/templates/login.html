@@ -1,18 +1,35 @@
-<template name="login" xmlns="http://www.w3.org/1999/html">
+<template name="login">
 
-    <div class="container">
-        <div class="row">
+
+    <div vertical  horizontal center-justified layout>
             <div class="col s12 m12 l6 main">
                 <div class="col s12 m12 l12 lo">
-                    <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
+                    <img vertical center-justified layout class="logo" style="align-content: center" src="/img/Logo/pay3.png">
                 </div>
-                <div class="col s12 m12 l12 lo">
+                <div vertical center-justified layout class="col s12 m12 l12 lo">
                     <h1 style="float: left">Log in</h1>
                 </div>
+                <center>
+                    <form vertical center-justified layout class="col s12" role="form" data-toggle="validator" action="demo_form.asp" method="post">
+                        <div vertical center-justified layout class="row">
+                            <div class="input-field col s12 m6 l12 ">
+                                <center> <input id="email" type="email" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off"></center>
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div vertical center-justified layout class="row">
+                            <div class="input-field col s12 m6 l12 ">
+                                <input id="password" type="password" class="validate" pattern=".{6,}" title="Six or more characters" autocomplete="off">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="btn waves-effect waves-light" type="submit" name="action" style="float:right;">Log in
+                            <i class="mdi-content-send right"></i>
+                        </button>
 
-                <div class="col s12 m6 l6 one" id="one">
-
-                <center><button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i>&nbsp; Log in with Google</button></center>
+                <div class="col s12 m12 l12 one" id="one">
+               <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i></button>
                 <!--<button id="facebook-login" class="btn btn-default"> Log in with Facebook</button>-->
 
                 {{#if currentUser}}
@@ -20,23 +37,22 @@
                     {{currentUser.services.facebook.gender}}
                     <button id="logout">Logout</button>
                 {{else}}
-                <center><button id="toto" class="btn btn-default" > <i class="fa fa-facebook"></i>&nbsp; Log in with Facebook</button></center>
+               <button id="toto" class="btn btn-default" > <i class="fa fa-facebook"></i></button>
                 {{/if}}
 
-                    <center><button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i> &nbsp; LOG IN WITH STRIPE</button></center>
+               <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i></button>
             </div>
-
-            <div class="vertical-line"></div>
-
-                <div class="col s12 m6 l6 one">
-                    <center><a class="waves-effect waves-light btn"  id="toto"  href="{{pathFor 'loginemail'}}"><i class="fa fa-envelope-o"></i>&nbsp;Log in with  E-MAIL</a></center>
-            </div>
-
+                        <fieldset class="title">
+                            <legend>Some text</legend>
+                        </fieldset>
+            </form>
+            </center>
         </div>
-</div>
+
         <div class="back">
             <a class="link" style="float: left;" href="{{pathFor 'signlog'}}"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
             <a class="link" style="float: right;" href="{{pathFor 'loginemail'}}">Log in&nbsp;<i class="fa fa-chevron-right"></i></a>
         </div>
-        </div>
+    </div>
+
 </template>
