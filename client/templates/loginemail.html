@@ -1,7 +1,7 @@
 <template name="loginemail">
     <div class="container">
         <div class="row">
-            <div class="col s12 m12 l6 main" style="width: 25%; margin-left: 37%">
+            <div class="col s12 m12 l6 main" style="width: 23%; margin-left: 37%">
 
                 <div class="col s12 m12 l12 lo">
                     <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
@@ -10,26 +10,32 @@
                 <div class="col s12 m12 l12 lo">
                     <h1 style="float: left">Log in</h1>
                 </div>
-
+<center>
         <form class="col s12" id="myForm" role="form" data-toggle="validator" action="demo_form.asp" method="post">
-            <div class="row">
-                <div class="input-field col s12 m6 l12 ">
-                    <input id="email" type="email" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off">
+           <div class="row" style="padding-left:2%">
+              <div class="input-field col s12 m6 l12 ">
+                  <center> <input id="email" type="email" class="validate" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="off"></center>
                     <label for="email">Email</label>
                 </div>
             </div>
-            <div class="row">
+            <div class="row" style="padding-left:2%">
                 <div class="input-field col s12 m6 l12 ">
                     <input id="password" type="password" class="validate" pattern=".{6,}" title="Six or more characters" autocomplete="off">
                     <label for="password">Password</label>
                 </div>
             </div>
           <br>
-            <button class="btn waves-effect waves-light" type="submit" name="action">Log in
+            <button class="btn waves-effect waves-light" type="submit" name="action" style="float:right;">Log in
                 <i class="mdi-content-send right"></i>
             </button>
         </form>
+</center>
                 </div>
             </div>
+        <div class="back" style="width: 23%; margin-left: 37%;margin-right: 30%">
+            <a class="link" style="float: left;" href="{{pathFor 'login'}}"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
+            <a class="link" style="float: right;" href="{{pathFor 'signupwith'}}">Register&nbsp;</a>
+            <p style="color: dimgrey; float: right;">Don't you have account yet?&nbsp;&nbsp;</p>
+        </div>
         </div>
 </template>

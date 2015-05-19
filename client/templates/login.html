@@ -1,4 +1,4 @@
-<template name="login">
+<template name="login" xmlns="http://www.w3.org/1999/html">
 
     <div class="container">
         <div class="row">
@@ -12,7 +12,7 @@
 
                 <div class="col s12 m6 l6 one" id="one">
 
-                <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i>&nbsp; Log in with Google</button>
+                <center><button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i>&nbsp; Log in with Google</button></center>
                 <!--<button id="facebook-login" class="btn btn-default"> Log in with Facebook</button>-->
 
                 {{#if currentUser}}
@@ -20,19 +20,23 @@
                     {{currentUser.services.facebook.gender}}
                     <button id="logout">Logout</button>
                 {{else}}
-                    <button id="toto" class="btn btn-default" > <i class="fa fa-facebook"></i>&nbsp; Log in with Facebook</button>
+                <center><button id="toto" class="btn btn-default" > <i class="fa fa-facebook"></i>&nbsp; Log in with Facebook</button></center>
                 {{/if}}
 
-                <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i> &nbsp; LOG IN WITH STRIPE</button>
+                    <center><button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i> &nbsp; LOG IN WITH STRIPE</button></center>
             </div>
 
             <div class="vertical-line"></div>
 
-                <div class="col s12 m6 l5 two">
-                <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'loginemail'}}"><i class="fa fa-envelope-o"></i>&nbsp;Log in with  E-MAIL</a>
+                <div class="col s12 m6 l6 one">
+                    <center><a class="waves-effect waves-light btn"  id="toto"  href="{{pathFor 'loginemail'}}"><i class="fa fa-envelope-o"></i>&nbsp;Log in with  E-MAIL</a></center>
             </div>
 
         </div>
 </div>
+        <div class="back">
+            <a class="link" style="float: left;" href="{{pathFor 'signlog'}}"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
+            <a class="link" style="float: right;" href="{{pathFor 'loginemail'}}">Log in&nbsp;<i class="fa fa-chevron-right"></i></a>
+        </div>
         </div>
 </template>

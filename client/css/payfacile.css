@@ -1,49 +1,89 @@
-/*@media screen and (max-width: 1024px) {
-    h1 {font-size: 20px}
-}
 
-@media screen and (max-width: 950px) {
-    h1 {
-        font-size: 70%;
+/*full screen*/
+@media only screen and (min-width: 1200px) {
+    .row .col.main {
+        width: 45%;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+    #one {
+        border-color: aliceblue;
+        border-right-style: solid;
     }
 }
-
-@media screen and (max-width: 650px) {
-    h1 {
-        font-size: 60%;
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .row .col.main {
+        width: 65%;
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: 50px;
+    }
+    #one {
+        border-color: aliceblue;
+        border-right-style: solid;
     }
 }
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 50%;
+/*i pad*/
+@media only screen and (min-width: 701px) and (max-width: 992px) {
+    .row .col.main {
+        width: 75%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-top: 50px;
+    }
+    #one {
+        border-color: aliceblue;
+        border-right-style: solid;
+    }
+    .btn {
+        float: none;
     }
 }
-
-.vertical-line{
-    height: 350px;
-    width: 3px;
-    display: inline-block;
-    float: left;
-    background-color: aliceblue;
-}*/
+/*mobile*/
+@media only screen and (max-width:701px) {
+    .row .col.main {
+        width: 90%;
+        padding-left: auto;
+        padding-right: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+            }
+}
 
 .input-field.col {
     background-color: aliceblue;
+    display: inline-block;
+    max-width: 260px;
+    min-width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin:3px;
 }
-#one {
+input.validate {
+    height: 40px;
+    max-width: 240px;
+    min-width: 240px;
+    color: dimgray;
+}
+/*#one {
     border-color: aliceblue;
     border-right-style: solid;
-}
+}*/
 
 .one {
-    width: 49%;
     height: 100%;
     float: left;
     display: inline-block;
 }
+.two {
+    min-height: 100%;
+    float: left;
+    display: inline-block;
+    padding-top: 12%;
+}
 .three {
-    width: 49%;
     height: 100%;
     display: inline-block;
 }
@@ -51,40 +91,22 @@
     min-width: 200px;
 }
 
-/*full screan*/
-@media only screen and (min-width: 992px) {
-        .row .col.main {
-            width: 45%;
-            margin-left: 25%;
-            margin-right: 25%;
-        }
-    }
-/*i pad*/
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-    .row .col.main {
-        width: 100%;
-    }
-}
-/*mobile*/
-@media only screen and (max-width:601px) {
-    .row .col.main {
-        width: 100%;
-        padding-left: auto;
-        padding-right: auto;
-    }
-}
 #toto {
-    width: 60%;
-    min-width: 225px;
+    min-width: 235px;
+    max-width: 245px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.two {
-    width: 49%;
-    height: 100%;
-    float: left;
+
+.back {
+    width: 45%;
+    min-height: 50px;
     display: inline-block;
-    padding-top: 12%;
-}
+    margin-left: 27%;
+    margin-right: 27%;
+    }
+
 body {
     margin: 0;
     padding: 0;
@@ -111,6 +133,10 @@ body {
     background-size: contain;
     position: absolute;
      }
+h1
+{
+    margin-top: 0;
+}
 /*h1 {
     text-align: left;
     margin-left: 2%;
@@ -136,6 +162,7 @@ body {
     margin-top: 10px;
 }
 .main {
+
     border-radius: 15px;
     margin-top: 5%;
     /*width: 60%;
@@ -155,22 +182,43 @@ body {
     animation: fadein 1s;
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
-
 .container {
-    background-color: #cfd8dc;
+    z-index: 9999;
+}
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-collapse: collapse;
+    display: block;
+    background-image: url("/img/bu (9).jpg"); /*Material_Design_Wallpaper_WALLPAPERDNA (17).png*/
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
 .link
 {
     height: 30px;
     background-color: transparent;
     font-size: inherit;
-    color: aliceblue;
+    color: darkslateblue;
     text-decoration: none;
     display: inline-block;
 
 }
 .link:hover, link:active {
     text-decoration: none;
+}
+.container.row {
+    margin-left: inherit;
+    margin-right: inherit;
 }
 /*.row {
     display: inline-block;
@@ -243,6 +291,9 @@ nav .brand-logo:visited{
     border: none;
     margin-bottom: 15px;
     height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 .btn:active {
     border: none;
@@ -253,10 +304,7 @@ nav .brand-logo:visited{
 .btn:visited {
     border: none;
 }
-input.validate {
-    height:46px;
-    width: 250px;
-}
+
 input.validate:checked {
     background-color: aqua;
 }
@@ -266,7 +314,13 @@ input.validate:checked {
     background-image: url("/img/Headers/header.png");
 
     }
-/*.col.s12 {
+/*
+
+input.validate {
+    height:46px;
+    width: 250px;
+}
+.col.s12 {
     transform: scale(1);
     animation-iteration-count: 1
 }
@@ -325,4 +379,34 @@ input.validate:checked {
     background-size: contain;
     padding: 3%;
     background: url("/img/photo-1422513391413-ddd4f2ce3340.jpg");
+}*/
+
+/*@media screen and (max-width: 1024px) {
+    h1 {font-size: 20px}
+}
+
+@media screen and (max-width: 950px) {
+    h1 {
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 50%;
+    }
+}
+
+.vertical-line{
+    height: 350px;
+    width: 3px;
+    display: inline-block;
+    float: left;
+    background-color: aliceblue;
 }*/
