@@ -1,5 +1,5 @@
 
-/*full screen
+/*full screen*/
 @media only screen and (min-width: 1200px) {
     .row .col.main {
         width: 45%;
@@ -15,7 +15,7 @@
         margin-top: 50px;
     }
 }
-/*i pad
+/*i pad*/
 @media only screen and (min-width: 701px) and (max-width: 992px) {
     .row .col.main {
         width: 75%;
@@ -31,7 +31,7 @@
               float: none;
     }
 }
-/*mobile
+/*mobile*/
 @media only screen and (max-width:701px) {
     .row .col.main {
         width: 90%;
@@ -41,7 +41,7 @@
         margin-right: 5%;
         margin-top: 50px;
             }
-}*/
+}
 
 .input-field.col {
     background-color: aliceblue;
@@ -100,6 +100,7 @@ input.validate {
 body {
     font-family: 'Acto-UltraLight',sans-serif;
     color: aliceblue;
+    justify-content: center;
 }
  .welcome {
      background-image: url("/img/Headers/twitter.payfacile-by-night.png");
@@ -149,15 +150,17 @@ h1
 
 .container {
     background-color: aqua;
-    min-height: 300px;
-    max-height: 500px;
     z-index: 9999;
     position: relative;
+    width: 100%;
 }
 .main {
-
+    width: 35%;
     border-radius: 15px;
-    margin-top: 5%;
+    margin-top: 15%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     /*width: 60%;
     height: 475px;
     margin-left: auto;
@@ -189,7 +192,7 @@ h1
     width: 100%;
     height: 100%;
     background-size: cover;
-
+    overflow: hidden;
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
@@ -348,6 +351,10 @@ input.validate {
     background-repeat: no-repeat;
     background-position: 0 90%;
     background-image: url("/img/Logo/Logo.png");
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
 }
 /*background-image: url("/img/Logo/Logo.png");*/
 #logo2 {
@@ -358,13 +365,7 @@ input.validate {
     top: 1px;
 }
 
-.brand-logo {
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-    padding: 0;
-}
+
 
 /* CSS declarations go here *
 .sing.up {
