@@ -60,3 +60,50 @@
             </div>
         </div>
 </template>
+
+<template name="signupwith">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l6 main">
+
+                <div class="col s12 m12 l12 lo">
+                    <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
+                </div>
+
+                <div class="col s12 m12 l12 lo">
+                    <h1 style="float: left">Register</h1>
+                </div>
+
+                <div class="col s12 m6 l6 one" id="one">
+                    <button type="button" class="btn btn-social-login btn-google" id="toto"><i class="fa fa-google"></i> &nbsp; Register with Google</button>
+
+                    {{#if currentUser}}
+                        {{currentUser.services.facebook.name}}
+                        {{currentUser.services.facebook.gender}}
+                        <button id="logout">Logout</button>
+                    {{else}}
+                        <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-facebook"></i> &nbsp; Register with Facebook</button>
+                    {{/if}}
+                    <button class="waves-effect waves-light btn" id="toto"><i class="fa fa-cc-stripe"></i>&nbsp; Register WITH STRIPE</button>
+                </div>
+
+                <!--<div class="col s0 m0 l1 vertical-line"></div>-->
+                <div class="col s12 m6 l5 two">
+                    <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'signup'}}"><i class="fa fa-envelope-o"></i>&nbsp; Register with  E-MAIL</a>
+                </div>
+                <br>
+                <hr>
+                <!--style="margin-top: 25%"-->
+                <!--<div class="back">
+                <a class="link" style="float: left;" href="{{pathFor 'signlog'}}"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
+                <a class="link" style="float: right;" href="{{pathFor 'signup'}}">Next&nbsp;<i class="fa fa-chevron-right"></i></a>
+                </div>-->
+            </div>
+        </div>
+        <div class="back">
+            <a class="link" style="float: left;" href="{{pathFor 'signlog'}}"><i class="fa fa-chevron-left"></i>&nbsp; Back</a>
+            <a class="link" style="float: right;" href="{{pathFor 'signup'}}">Register&nbsp;<i class="fa fa-chevron-right"></i></a>
+        </div>
+
+    </div>
+</template>

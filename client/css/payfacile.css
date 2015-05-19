@@ -1,48 +1,4 @@
 
-/*full screen*/
-@media only screen and (min-width: 1200px) {
-    .row .col.main {
-        width: 45%;
-        margin-left: 27%;
-        margin-right: 27%;
-    }
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .row .col.main {
-        width: 65%;
-        margin-left: 17%;
-        margin-right: 17%;
-        margin-top: 50px;
-    }
-}
-/*i pad*/
-@media only screen and (min-width: 701px) and (max-width: 992px) {
-    .row .col.main {
-        width: 75%;
-        margin-left: 12%;
-        margin-right: 12%;
-        margin-top: 50px;
-    }
-
-
-    .btn {
-
-
-              float: none;
-    }
-}
-/*mobile*/
-@media only screen and (max-width:701px) {
-    .row .col.main {
-        width: 90%;
-        padding-left: auto;
-        padding-right: auto;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 50px;
-            }
-}
-
 .input-field.col {
     background-color: aliceblue;
     display: inline-block;
@@ -60,7 +16,7 @@ input.validate {
     color: dimgray;
 }
 
-.one {
+/*.one {
     height: 100%;
     float: left;
     display: inline-block;
@@ -76,9 +32,9 @@ input.validate {
 .three {
     height: 100%;
     display: inline-block;
-}
+}*/
 .row {
-    min-width: 200px;
+    min-width: 170px;
 }
 
 /*#toto {
@@ -119,10 +75,7 @@ body {
     background-size: contain;
     position: absolute;
      }*/
-h1
-{
-    margin-top: 0;
-}
+
 /*h1 {
     text-align: left;
     margin-left: 2%;
@@ -149,18 +102,14 @@ h1
 }
 
 .container {
-    background-color: aqua;
     z-index: 9999;
     position: relative;
     width: 100%;
+
 }
 .main {
-    width: 35%;
     border-radius: 15px;
-    margin-top: 15%;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5%;
     /*width: 60%;
     height: 475px;
     margin-left: auto;
@@ -226,6 +175,29 @@ fieldset.title legend {
     text-decoration: none;
 }
 
+
+@font-face {
+    font-family: "Acto-UltraLight";
+    src: url("/Fonts/Acto/Acto-UltraLight.otf");
+}
+.brand-logo {
+    margin-left: 1.5em;
+    margin-top: 0.3em;
+    padding-left: 110px !important;
+    background-size: 100px 35px;
+    background-repeat: no-repeat;
+    background-position: 0 90%;
+    background-image: url("/img/Logo/Logo.png");
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+}
+
+.nav-wrapper {
+    background-color:#483658;
+
+}
 /*.row {
     display: inline-block;
     background-color: aliceblue;
@@ -269,7 +241,7 @@ fieldset.title legend {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}*/
+}
 .navbar-brand:hover {
     color: aliceblue;
     background-color: #26a69a;
@@ -316,10 +288,7 @@ input.validate:checked {
 }
 
 /*header*/
-.nav-wrapper {
-    background-color:#483658;
 
-    }
 /*
 
 input.validate {
@@ -339,24 +308,7 @@ input.validate {
 .col.s12>*:nth-child(8) {transition-delay: .4s}*/
 
 
-@font-face {
-    font-family: "Acto-UltraLight";
-    src: url("/Fonts/Acto/Acto-UltraLight.otf");
-}
-.brand-logo {
-    margin-left: 1.5em;
-    margin-top: 0.3em;
-    padding-left: 110px !important;
-    background-size: 100px 35px;
-    background-repeat: no-repeat;
-    background-position: 0 90%;
-    background-image: url("/img/Logo/Logo.png");
-    position: absolute;
-    color: #fff;
-    display: inline-block;
-    font-size: 2.1rem;
-}
-/*background-image: url("/img/Logo/Logo.png");*/
+/*background-image: url("/img/Logo/Logo.png");
 #logo2 {
     margin-left: 0.5em;
     padding-left: 110px !important;
@@ -409,4 +361,49 @@ input.validate {
     display: inline-block;
     float: left;
     background-color: aliceblue;
+}*/
+
+
+/*full screen
+@media only screen and (min-width: 1200px) {
+    .row .col.main {
+        width: 45%;
+        margin-left: 27%;
+        margin-right: 27%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .row .col.main {
+        width: 65%;
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: 50px;
+    }
+}
+/*i pad
+@media only screen and (min-width: 701px) and (max-width: 992px) {
+    .row .col.main {
+        width: 75%;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-top: 50px;
+    }
+
+
+    .btn {
+
+
+              float: none;
+    }
+}
+/*mobile
+@media only screen and (max-width:701px) {
+    .row .col.main {
+        width: 90%;
+        padding-left: auto;
+        padding-right: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+            }
 }*/

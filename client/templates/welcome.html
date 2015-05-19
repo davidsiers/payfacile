@@ -1,5 +1,23 @@
-<template name="welcome">
-    {{> header}}
-<div class="welcome">
-</div>
+<template name="signlog">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l6 main" style="margin-top: 0">
+
+                        <div class="col s12 m12 l12 lo">
+                            <center> <img class="logo" style="align-content: center" src="/img/Logo/pay3.png"></center>
+                        </div>
+
+                        <h1 id="text" style="text-align: center">Welcome on PayFacile</h1>
+                        <p id="text" class="flow-text" style="text-align: justify; font-size:large">PayFacile's goals are to simplify the online sale process and to ease the establishment of a subscriber management system.</p>
+
+                        <div class="three" >
+                            <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'signupwith'}}">Register</a>
+                        </div>
+                        <div class="three" style="float: right;">
+                            <a class="waves-effect waves-light btn" id="toto" href="{{pathFor 'login'}}"> LOG IN</a>
+                        </div>
+                </div>
+            </div>
+
+        </div>
 </template>
