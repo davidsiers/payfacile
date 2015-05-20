@@ -1,3 +1,37 @@
+.at-social-btn {
+    background-color:  #26a69a;
+    min-width: 50px;
+    display: inline-block;
+    width: 50px;
+}
+.col, .at-sep, .at-form {
+    background-color: #eceff1;
+    border-radius: 15px;
+    }
+.at-form{
+    padding: 8%;
+}
+.col{
+    margin-top: 3%;
+}
+
+.background-image {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    border-collapse: collapse;
+    display: block;
+    background-image: url("/img/to (5).jpg");
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
 
 .input-field.col {
     background-color: aliceblue;
@@ -59,10 +93,10 @@
 
 body {
     font-family: 'Acto-UltraLight',sans-serif;
-    color: aliceblue;
+    color: #37474f;
     justify-content: center;
 }
- .welcome {
+ .home {
      background-image: url("/img/Headers/twitter.payfacile-by-night.png");
      background-size: contain;
      margin-right: auto;
@@ -134,24 +168,6 @@ body {
 }
 .container {
     z-index: 9999;
-}
-.background-image {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    border-collapse: collapse;
-    display: block;
-    background-image: url("/img/bu (9).jpg"); /*Material_Design_Wallpaper_WALLPAPERDNA (17).png*/
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    overflow: hidden;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
 }
 
 fieldset.title {

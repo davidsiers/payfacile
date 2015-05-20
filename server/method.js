@@ -9,8 +9,6 @@ ServiceConfiguration.configurations.upsert(
     }
 );
 
-
-
 ServiceConfiguration.configurations.upsert(
 { service: "facebook" },
 {
