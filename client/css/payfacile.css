@@ -5,15 +5,30 @@
     width: 50px;
 }
 .col, .at-sep, .at-form {
-    background-color: #eceff1;
+    background-color:#eceff1;
     border-radius: 15px;
     }
+.at-sep {
+   margin-top: 15px;
+}
 .at-form{
-    padding: 8%;
+    padding: 5%;
+}
+.at-pwd-form {
+    padding: 10px;
 }
 .col{
-    margin-top: 3%;
+    margin-top: -4%;
 }
+#at-google {
+    background-color:#a9454d;
+}
+/*colors logo
+purple: #a9454d
+one up: #9c756e
+second up: #7b9990
+top blue: #00b1af
+*/
 
 .background-image {
     position: fixed;
@@ -22,15 +37,15 @@
     z-index: 1;
     border-collapse: collapse;
     display: block;
-    background-image: url("/img/to (5).jpg");
+    background-image: url("/img/to (37).jpg");
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
 }
 
 .input-field.col {
@@ -127,7 +142,6 @@ body {
 
 .logo {
     height: 110px;
-    margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
 
