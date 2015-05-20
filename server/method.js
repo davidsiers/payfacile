@@ -9,6 +9,8 @@ ServiceConfiguration.configurations.upsert(
     }
 );
 
+
+
 ServiceConfiguration.configurations.upsert(
 { service: "facebook" },
 {
@@ -18,3 +20,4 @@ ServiceConfiguration.configurations.upsert(
             secret: 'd0d6a49f217cf5db3b9b4e950918e6c8'
     }
 });
+

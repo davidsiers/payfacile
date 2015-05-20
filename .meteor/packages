@@ -20,3 +20,6 @@ accounts-ui
 service-configuration
 accounts-facebook
 fortawesome:fontawesome
+useraccounts:core
+useraccounts:materialize
+mrt:accounts-stripe
