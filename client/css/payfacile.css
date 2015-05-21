@@ -1,34 +1,80 @@
-.at-social-btn {
+
+/*.at-social-btn {
     background-color:  #26a69a;
     min-width: 50px;
     display: inline-block;
     width: 50px;
+}*/
+
+/*.at-social-btn {
+    margin: 2px;
+    min-width: 242px;
+    max-width: 242px;
+} */
+.at-social-btn {
+margin-bottom: 3px;
+
 }
+/*.at-signup-link {
+ margin-left: 3%;
+}*/
+h3 {
+    margin-top: 1.55rem; /*1.46rem;*/
+    margin-right: 0px;
+    margin-bottom: 0.7rem; /*1.168rem;*/
+    margin-left: 0px;
+}
+
+.at-btn.submit {
+    margin-top: 3px;
+}
+.at-signup-link {
+ margin-top: 3px;
+}
+
 .col, .at-sep, .at-form {
     background-color:#eceff1;
     border-radius: 15px;
     }
 .at-sep {
-   margin-top: 15px;
+   margin-top: 17px;
+    margin-bottom: 0;
 }
 .at-form{
-    padding: 5%;
+    padding: 2%;
 }
-.at-pwd-form {
-    padding: 10px;
+.at-title {
+    margin-left: 3%;
 }
 .col{
     margin-top: -4%;
 }
+.input-field {
+    position: relative;
+    margin-top: 0;
+}
 #at-google {
     background-color:#a9454d;
 }
+#at-stripe {
+    background-color: #00b1af;
+}
+
+.row .col.offset-l4 {
+    width: 25%;
+    margin-left: 37.5555555%;
+}
+
 /*colors logo
 purple: #a9454d
 one up: #9c756e
 second up: #7b9990
 top blue: #00b1af
 */
+
+#at-nav-button {
+  width: 120px;
+}
 
 .background-image {
     position: fixed;
@@ -37,7 +83,8 @@ top blue: #00b1af
     z-index: 1;
     border-collapse: collapse;
     display: block;
-    background-image: url("/img/to (37).jpg");
+
+    background-image: url("/img/to (4).jpg");
     height: 100%;
     background-size: cover;
     overflow: hidden;
