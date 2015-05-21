@@ -84,7 +84,7 @@ top blue: #00b1af
     border-collapse: collapse;
     display: block;
 
-    background-image: url("/img/to (4).jpg");
+    background-image: url("/img/to (37).jpg");
     height: 100%;
     background-size: cover;
     overflow: hidden;
@@ -93,6 +93,8 @@ top blue: #00b1af
     -o-filter: blur(3px);
     -ms-filter: blur(3px);
     filter: blur(3px);
+    /*-webkit-filter: brightness(0.4);
+    filter: brightness(0.4);*/
 }
 
 .input-field.col {
