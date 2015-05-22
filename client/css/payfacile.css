@@ -1,10 +1,14 @@
+.container .row {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-/*.at-social-btn {
-    background-color:  #26a69a;
-    min-width: 50px;
-    display: inline-block;
-    width: 50px;
-}*/
+    /*.at-social-btn {
+        background-color:  #26a69a;
+        min-width: 50px;
+        display: inline-block;
+        width: 50px;
+    }*/
 
 /*.at-social-btn {
     margin: 2px;
@@ -49,6 +53,10 @@ h3 {
 .col{
     margin-top: -4%;
 }
+
+.at-form {
+    min-width: 240px;
+}
 .input-field {
     position: relative;
     margin-top: 0;
@@ -56,14 +64,18 @@ h3 {
 #at-google {
     background-color:#a9454d;
 }
+#at-google:hover {
+    background-color: #a9455e;
+    color: black;
+}
 #at-stripe {
     background-color: #00b1af;
 }
 
-.row .col.offset-l4 {
-    width: 25%;
-    margin-left: 37.5555555%;
+#at-facebook:hover {
+    color: black;
 }
+
 
 /*colors logo
 purple: #a9454d
@@ -205,7 +217,7 @@ body {
 .container {
     z-index: 9999;
     position: relative;
-    width: 100%;
+    width: 80%;
 
 }
 .main {
