@@ -5,23 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8be75dc2-7b10-482b-8fce-c14bf5c18a6a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/atForm.html" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\14-1-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\PAYFACILE_anim3.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\QFbX6rD9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\material-design.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\material_design_wallpaper-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\papers.co-ag01-toronto-material-design-illust-art-25-wallpaper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Maria\Documents\payfacile\public\img\photo-1422513391413-ddd4f2ce3340.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Thumbs.db" afterPath="$PROJECT_DIR$/public/img/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Gateways/Thumbs.db" afterPath="$PROJECT_DIR$/public/img/Gateways/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/img/Logo/Thumbs.db" afterPath="$PROJECT_DIR$/public/img/Logo/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/header.html" afterPath="$PROJECT_DIR$/client/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/layout.html" afterPath="$PROJECT_DIR$/client/templates/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/css/payfacile.css" afterPath="$PROJECT_DIR$/client/css/payfacile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/test.html" afterPath="$PROJECT_DIR$/client/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/10644671_10153375320148906_2962180639722369150_n.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/ICONE_large2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/lo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/logo3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/pay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/pay2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/pay3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Logo/pay4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (1).gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (10).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (10).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (11).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (11).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (12).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (12).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (13).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (13).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (14).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (15).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (16).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (17).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (18).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (19).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (20).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (21).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (22).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (23).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (24).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (25).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (26).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (27).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (28).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (29).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (3).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (3).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (30).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (31).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (32).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (33).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (34).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (35).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (36).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (37).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (377).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (38).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (39).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (4).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (4).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (40).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (41).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (42).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (43).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (44).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (45).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (46).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (48).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (5).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (5).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (6).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (6).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (7).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (7).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (8).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (8).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (9).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to (9).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/to.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="payfacile.iws" />
@@ -172,6 +228,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="payfacile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payfacile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payfacile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,26 +462,32 @@
       <option name="project" value="LOCAL" />
       <updated>1432211782126</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="login looking nice">
+      <created>1432320971198</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1432320971198</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1024" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41584158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41584158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4634434" sideWeight="0.5040043" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32808718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35230026" sideWeight="0.49599573" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35230026" sideWeight="0.49599573" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -455,21 +535,14 @@
     <MESSAGE value="New version material design" />
     <MESSAGE value="fuuuuuu" />
     <MESSAGE value="fuuuuuu2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fuuuuuu2" />
+    <MESSAGE value="login looking nice" />
+    <option name="LAST_COMMIT_MESSAGE" value="login looking nice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -851,6 +924,11 @@
           <caret line="60" column="17" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="17" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/img/to (1).gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../dev/testDesign/packages/account/lib/at_sep.js">
