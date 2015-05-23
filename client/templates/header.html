@@ -10,7 +10,13 @@
             <li><a class="navbar-brand" href="{{pathFor 'signlog'}}">Log in</a></li>
              <li><a class="navbar-brand" href="{{pathFor 'signUp'}}">Register </a></li>
             <li><a href="{{pathFor 'signUp'}}" id="at-signUp" class="at-link at-signup waves-effect waves-light btn">Register toto</a></li>-->
-            <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
+            {{#if currentUser}}
+                <li>Hello {{currentUser._id}}, {{toto}} </li>
+            {{else}}
+                <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
+            {{/if}}
+
+
             <li><a class="navbar-brand" >{{>atNavButton}}</a></li>
         </ul>
     </div>

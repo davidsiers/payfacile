@@ -81,6 +81,5 @@ underscore@1.0.3
 url@1.0.4
 useraccounts:core@1.10.0
 useraccounts:materialize@1.10.0
-useraccounts:unstyled@1.10.0
 webapp@1.2.0
 webapp-hashing@1.0.3

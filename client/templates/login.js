@@ -1,4 +1,4 @@
-Template.login.events({
+/*Template.login.events({
     'click .btn-google': function(e) {
         e.preventDefault();
         Meteor.loginWithGoogle({
@@ -24,13 +24,13 @@ Template.login.events({
             }
         })
     }
-});
+});*/
 
 
 /**
  * Created by Maria on 4/19/2015.
  */
-Template.loginemail.events({
+/*Template.loginemail.events({
     'submit':function(event,template){
         //we avoid the template (and the page to reload)
         // --> because submit a post reload a page by default normally, but it would be less reactive, less fast
@@ -62,7 +62,7 @@ Template.loginemail.events({
         );
     }
 
-});
+});*/
 
 /*$(document).ready(function(){
  $(".navbar-brand").click(function(){

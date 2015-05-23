@@ -24,4 +24,3 @@ useraccounts:core
 useraccounts:materialize
 mrt:accounts-stripe
 aldeed:template-extension
-useraccounts:unstyled
