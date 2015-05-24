@@ -1,54 +1,28 @@
 <template name="header">
     <nav>
-    <div class="nav-wrapper">
-         <a class="brand-logo flow-text" href="/">&nbsp;</a>
-        <!--<img class="logo" src="/img/Logo/Logo.png">-->
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <!--<li><a href="javascript.html">About</a></li> -->
-            <!--<li><a class="navbar-brand" >{{>loginButtons}}</a></li>
-            li><a class="navbar-brand" href="{{pathFor 'login'}}">Log in</a></li>
-            <li><a class="navbar-brand" href="{{pathFor 'signlog'}}">Log in</a></li>
-             <li><a class="navbar-brand" href="{{pathFor 'signUp'}}">Register </a></li>
-            <li><a href="{{pathFor 'signUp'}}" id="at-signUp" class="at-link at-signup waves-effect waves-light btn">Register toto</a></li>-->
-            {{#if currentUser}}
-                <li>Hello {{currentUser._id}}, {{toto}}, {{currentUser.services.facebook.name}} {{currentUser.services.google.name}} </li>
-            {{else}}
-                <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
-            {{/if}}
-
-            <li><a class="navbar-brand" >{{>atNavButton}}</a></li>
-        </ul>
-    </div>
-</nav>
+        <div class="nav-wrapper">
+            <a href="/"><img src="/img/Logo/Logo.png" class="payfacile-logo"></a>  <!---Payfacile logo-->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <!--USING METEOR BLAZE-->
+                {{#if email}}
+                    <li>Hello   {{email}} </li>
+                {{else}}
+                    {{#if currentUser.services.facebook.name}}
+                        <li>Hello   {{currentUser.services.facebook.name}}</li>
+                    {{else}}
+                        {{#if currentUser.services.google.name}}
+                            <li>Hello   {{currentUser.services.google.name}}</li>
+                        {{else}}
+                            {{#if currentUser.services.stripe.name}}
+                                    <li>Hello   {{currentUser.services.stripe.name}}</li>
+                            {{else}}
+                            <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
+                            {{/if}}
+                        {{/if}}
+                    {{/if}}
+                {{/if}}
+                <li><a class="navbar-brand">{{>atNavButton}}</a></li> <!--Sign in, Register buttons -->
+            </ul>
+        </div>
+    </nav>
 </template>
-
-
-<!--
-<template name="SignUp">
-
-    <form action="/sign-up" id="signUpForm" method="post">
-        <input id="signUpEmail" name="email" placeholder="Email Address" type="text" >
-        <input id="signUpPassword" name="password" placeholder="Password" type="password">
-        <input id="signUpPasswordConfirm" name="password-confirm" placeholder="Confirm" type="password">
-        <input class="btn-submit" type="submit" value="Join Meteorites!">
-    </form>
- </template>
-
-<template name="SignIn">
-
-    <form action="/signin" id="signInForm" method="post">
-        <input id="signInEmail" type="text" name="email" placeholder="Email Address">
-        <input id="signInPassword" type="password" name="password" placeholder="Password">
-        <input class="btn-submit" type="submit" value="Sign In">
-    </form>
-
-</template>
-
-<template name="SignOut">
-
-    <div class="connected">
-        <span class="welcome">Welcome New Meteorite!</span>
-        <a class="sign-out" href="/" id="signOut">Sign Out</a>
-    </div>
-
-</template>-->

@@ -1,9 +1,11 @@
-/**
- * Created by Maria on 5/23/2015.
- */
+// User sign in with email
 Template.header.helpers({
-        'toto': function(){
-            return Meteor.user().emails[0].address;
+        'email': function(){
+            if(Meteor.user() && Meteor.user().emails){
+                return Meteor.user().emails[0].address;
+            }
+            else{
+                return '';
+            }
         }
-
 });

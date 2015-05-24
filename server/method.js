@@ -19,3 +19,12 @@ ServiceConfiguration.configurations.upsert(
     }
 });
 
+ServiceConfiguration.configurations.upsert(
+    { service: "stripe" },
+    {
+        $set: {
+            appId: 'ca_6Gzyi8WT2ICdahJ5CuRkR6FXFmtdNn5k',
+            loginStyle: "popup",
+            secret: 'sk_test_NAg08WVB5n7uXoXCfC0kLhA9'
+        }
+    });
