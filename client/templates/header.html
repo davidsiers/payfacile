@@ -3,20 +3,20 @@
         <div class="nav-wrapper">
             <a href="/"><img src="/img/Logo/Logo.png" class="payfacile-logo"></a>  <!---Payfacile logo-->
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <!--USING METEOR BLAZE-->
+                <!--USING METEOR BLAZE TODO: put logic in JS because elseif KO with Blaze-->
                 {{#if email}}
                     <li>Hello   {{email}} </li>
                 {{else}}
                     {{#if currentUser.services.facebook.name}}
-                        <li>Hello   {{currentUser.services.facebook.name}}</li>
+                        <li>Hello {{currentUser.services.facebook.name}}</li>
                     {{else}}
                         {{#if currentUser.services.google.name}}
-                            <li>Hello   {{currentUser.services.google.name}}</li>
+                            <li>Hello {{currentUser.services.google.name}}</li>
                         {{else}}
                             {{#if currentUser.services.stripe.name}}
-                                    <li>Hello   {{currentUser.services.stripe.name}}</li>
-                            {{else}}
-                            <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
+                                    <li>Hello {{currentUser.services.stripe.name}}</li>
+                            {{else}}<!--if no one is connected-->
+                                <li><a href="/sign-up" id="at-nav-button" class="at-link at-signup waves-effect waves-light btn">Register</a></li>
                             {{/if}}
                         {{/if}}
                     {{/if}}
