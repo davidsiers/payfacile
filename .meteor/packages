@@ -5,22 +5,15 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 twbs:bootstrap
 underscore
 materialize:materialize
-jquery
 accounts-password
 iron:router
-aldeed:collection2
-google
 accounts-google
-accounts-ui
 service-configuration
 accounts-facebook
 fortawesome:fontawesome
 useraccounts:core
 useraccounts:materialize
 mrt:accounts-stripe
-aldeed:template-extension

@@ -45,9 +45,11 @@ body {
 }
 /*header*/
 nav .nav-wrapper {
-    background-color:#483658;
+    background-color: #483658;
     position: fixed;
     width: 100%;
+    z-index: 99999;
+    height: 67px;
 }
 
 /* buttons in header*/
