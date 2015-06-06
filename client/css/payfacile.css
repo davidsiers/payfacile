@@ -77,16 +77,14 @@ margin-bottom: 3px;
 .at-sep {
     margin-top: 17px;
     margin-bottom: 0;
+    width: 100%;
 }
 /*overlap logo with form*/
 .at-form{
     padding: 2%;
-    min-width: 240px;
+    min-width: 250px;
 }
 
-.col{
-    margin-top: -5.5%;
-}
 
 /*input fields in register/signin form*/
 .input-field {
@@ -114,8 +112,22 @@ margin-bottom: 3px;
 /*circle payfacile logo in the body*/
 .logo {
     height: 110px;
+    margin-bottom: -5.5%;
 }
 
 h3 {
     font-size: 2.4rem;
+}
+/*check sign in forms*/
+.fa-check:before {
+     content: "\f00c";
+     position: absolute;
+     margin-top: -60px;
+     margin-left: 255px;
+ }
+
+@media only screen and (max-width: 500px) {
+    .fa-check:before {
+        margin-left: 200px !important;
+    }
 }
