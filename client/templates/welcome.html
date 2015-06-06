@@ -1,7 +1,7 @@
 <template name="welcome">
-  {{#if currentUser}}
-      {{> account}}<!--here will be user account interface-->
-  {{else}}
-      <h2>Welcome to Payfacile, Please signin or register</h2> <!--here will be landing page-->
-  {{/if}}
+    {{#if currentUser}}
+        <h2>Welcome to Payfacile, this is your account interface</h2> <!--here will be user account interface-->
+    {{else}}
+        <h2>Welcome to Payfacile, Please signin or register</h2> <!--here will be landing page-->
+    {{/if}}
 </template>

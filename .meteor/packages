@@ -18,3 +18,4 @@ useraccounts:core
 useraccounts:materialize
 mrt:accounts-stripe
 jquery
+autopublish
